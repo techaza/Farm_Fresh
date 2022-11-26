@@ -18,6 +18,7 @@ class Farm_fresh extends StatelessWidget {
       body: CustomScrollView(
         slivers: [
           SliverAppBar(
+            pinned: true,
             backgroundColor: Colors.green,
             title: Text('FARMERS FRESH ZONE'),
             actions: [
